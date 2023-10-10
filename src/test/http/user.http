@@ -1,0 +1,20 @@
+### findAll
+GET http://localhost:8080/users
+Accept: application/json
+
+### register
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "홍길동"
+}
+
+### modify
+PUT http://localhost:8080/users/1
+Content-Type: application/json
+
+{
+  "name": "김길동"
+}
