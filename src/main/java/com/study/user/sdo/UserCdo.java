@@ -23,7 +23,8 @@ public class UserCdo {
     public User toDomain() {
         return new User(
             id,
-            name
+            name,
+            false
         );
     }
 }
